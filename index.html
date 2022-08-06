@@ -78,12 +78,52 @@
                      <div class="modal">
                     <button type="button" class="close-btn" data-modal-close>x
                      </button>
+                        <h2 class="form-title">Zostaw swoje dane w formularzu poniżej</h2>
+                          <form class="modal-form" autocomplete="on">
+                        <label>
+                            <p class="modal-text-form">Imię</p>
+                            <input type="text" name="name" class="modal-form-box">
+                            <svg class="modal-icon-name">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-person-black-18dp-1"></use>
+                                </svg>
+                        </label>
+                        <label>
+                            <p class="modal-text-form">Telefon</p>
+                            <input type="tel" name="phone_number" class="modal-form-box">
+                            <svg class="modal-icon-phone">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+                            </svg>
+                        </label>
+                        <label>
+                          <p class="modal-text-form">E-mail</p>
+                          <input type="email" name="email" class="modal-form-box">
+                          <svg class="modal-icon-mail">
+                            <use href="./images/icons.svg/symbol-defs.svg#icon-email-black-18dp-1"></use>
+                          </svg>
+                        </label>
+                        <label>
+                            <p class="modal-text-form">Komentarz</p>
+                            <textarea name="comment" rows="=6" placeholder="Wprowadź tekst"></textarea>
+                        </label>
+                        <label>
+                           <p class="modal-checkbox-text">Oświadczam iż akceptuję <a href class="modal-checkbox-link">Regulamin</a> i <a href class="modal-checkbox-link">Politykę Prywatności</a>.</p>
+                           <input type="checkbox" name="statute" value="Oświadczam iż akceptuję Regulamin i Politykę Prywatności."/>
+                             <span class="checkmark">
+                          <svg class="modal-checkbox-icon">
+                             <use href="./images/icons.svg/symbol-defs.svg#icon-icon-check"></use>
+                          </svg>
+                             </span>
+                        </label>
+                    <div class="modal-button-position">
+                <button type="submit" class="modal-form-button">Wyślij</button>
+                    </div>
+                    </form>
                      </div>
                      </div>
                     <button data-modal-open type="button" class="main-buttons">
                         Zamów usługe
                     </button>
-                    
+                   
                     </div>
                     </div>
                 </div>
@@ -488,6 +528,20 @@
                         </li>
                     </ul>
                  </section>
+                 <div class=footer-title-newlestter>
+                    <h4>Zapisz się do newsletter</h4>
+                    <form name="modal-form" autocomplete="on" novalidate>
+                        <label>
+                            <input type="email" name="E-maial" placeholder="E-maial" class=newsletter-footer/>
+                        </label>
+                           <button type="submit" class="button-newsletter">
+                     <span class="button-newsletter-text">Zapisz się</span>
+                         <svg class="icon-send">
+                             <use href="./images/icons.svg/symbol-defs.svg#icon-icon-send"></use>
+                         </svg>
+                            </button>
+                    </form>
+                 </div>
                 </div>
                 </div>
             </footer>
