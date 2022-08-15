@@ -416,8 +416,8 @@ body {
     gap: 10px;
 }
 .footer-socialmedia-item {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -618,13 +618,14 @@ body {
   border-radius: 4px;
   height: 40px;
   margin-bottom:10px;
+  padding-left:42px;
 }
 .modal-icon-name{
   fill: #212121;
   height: 12px;
   width: 12px;
   position: absolute;
-  top: 108px;
+  top: 100px;
   left: 60px;
 }
 .modal-icon-phone {
@@ -632,7 +633,7 @@ body {
   height: 13px;
   width: 13px;
   position: absolute;
-  top: 175px;
+  top: 164px;
   left: 60px;
 }
 .modal-icon-mail {
@@ -640,7 +641,7 @@ body {
   height: 12px;
   width: 15px;
   position: absolute;
-  top: 243px;
+  top: 235px;
   left: 60px;
 }
 .modal-text-form {
@@ -659,7 +660,7 @@ textarea {
   border-radius: 4px;
   height: 120px;
   resize: none;
-  padding-left: 16px;
+  padding:12px;
 }
 textarea::placeholder {
   font-family: 'Roboto';
@@ -790,6 +791,7 @@ input {
   fill: var(--body-background-color);
   height: 24px;
   width: 24px;
+
 }
 .button-newsletter-text {
   padding: 10px 24px 10px 0;
@@ -812,5 +814,5 @@ input::placeholder{
     padding-left:16px;
 }
 .footer-title-newslestter{
-    margin-left:78px;
+    margin-left:74px;
 }
